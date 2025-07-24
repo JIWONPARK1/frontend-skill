@@ -1,5 +1,8 @@
 @charset 'utf-8';
 
+@import './font.scss';
+@import './reset.scss';
+
 :root {
   --black: #000;
   --white: #fff;
@@ -12,4 +15,8 @@
   --orange: #ffa500;
   --pink: #ffc0cb;
   --brown: #a52a2a;
+}
+
+body {
+  font-family: 'NanumSoMiCe', sans-serif;
 }
